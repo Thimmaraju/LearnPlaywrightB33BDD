@@ -1,0 +1,19 @@
+{
+  "name": "learnplaywrightbdd_b33",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require cucumber.conf.js --require tests/stepDefinitions/**/*.js --format @cucumber/pretty-formatter --format json:reports/cucumber_report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@cucumber/pretty-formatter": "^3.0.0",
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.1.0",
+    "multiple-cucumber-html-reporter": "^3.9.3"
+  }
+}
